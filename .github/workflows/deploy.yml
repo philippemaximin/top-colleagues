@@ -1,4 +1,4 @@
-# Source: https://focisolutions.com/2020/04/github-actions-deploying-an-angular-app/
+# Source: https://focisolutions.com/2020/04/github-actions-deploying-an-angular-app/ fezfze
 name: Deploy To GitHub Pages
 
 on:
@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v1
       - name: Download build
         uses: actions/download-artifact@v1
-        with:
+        with
           name: deploy_dist
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
